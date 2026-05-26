@@ -5,3 +5,5 @@ node_modules/
 .local/
 bin/
 tools/
+*.command
+scripts/install-global-npm.sh
