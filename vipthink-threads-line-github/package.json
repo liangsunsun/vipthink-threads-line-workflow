@@ -1,0 +1,20 @@
+{
+  "name": "vipthink-threads-line-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "collect:threads": "node scripts/collect-threads.mjs",
+    "discover:threads:browser": "node scripts/discover-threads-browser.mjs --brand VIPTHINK",
+    "discover:threads:urls": "node scripts/discover-threads-urls.mjs --brand VIPTHINK",
+    "send:line:test": "node scripts/send-line-test.mjs",
+    "send:line:threads": "node scripts/send-line-threads-summary.mjs",
+    "weekly:threads:line": "node scripts/weekly-threads-line-check.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

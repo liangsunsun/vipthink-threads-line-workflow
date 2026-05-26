@@ -1,0 +1,41 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+*.secret
+
+# Runtime data
+data/*
+!data/.gitkeep
+
+# Local browser profiles and cache
+playwright-profile/
+data/playwright-*/
+
+# Raw exports and private reports
+exports/
+downloads/
+reports/private/
+reports/tmp/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.zip
+*.7z
+*.rar
+
+# Logs and dependencies
+*.log
+node_modules/
+dist/
+build/
+.DS_Store
+Thumbs.db
